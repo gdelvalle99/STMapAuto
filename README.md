@@ -1,8 +1,8 @@
 ## **Calcium Imaging Analysis Plugin Fiji/Image J:**
 
-Intracellular Ca2+ signals occur in nearly all cells, and mediate a myriad of functions such as cell proliferation, secretion, fertilization, and muscle contraction. To investigate these phenomena, Ca^2+ signals are commonly recorded by using either traditional Ca^2+ dyes or genetically encoded Ca^2+ indicators. However, intracellular Ca^2+ signals encode specific responses via complex spatial and temporal patterns including localized oscillations and cell-wide waves, which can be arduous to decipher manually. Therefore, we aim to dramatically enhance current methods of Ca^2+ event detection and analysis. Thus far, we have developed an automated algorithmic solution to the analysis of Ca^2+ signal dynamics and have incorporated a machine learning approach into Ca^2+ Spatio-Temporal Map analysis.
+Intracellular Ca<sup>2+</sup> signals occur in nearly all cells, and mediate a myriad of functions such as cell proliferation, secretion, fertilization, and muscle contraction. To investigate these phenomena, Ca<sup>2+</sup> signals are commonly recorded by using either traditional Ca<sup>2+</sup> dyes or genetically encoded Ca<sup>2+</sup> indicators. However, intracellular Ca<sup>2+</sup> signals encode specific responses via complex spatial and temporal patterns including localized oscillations and cell-wide waves, which can be arduous to decipher manually. Therefore, we aim to dramatically enhance current methods of Ca<sup>2+</sup> event detection and analysis. Thus far, we have developed an automated algorithmic solution to the analysis of Ca<sup>2+</sup> signal dynamics and have incorporated a machine learning approach into Ca<sup>2+</sup> Spatio-Temporal Map analysis.
 
-We developed a Spatio-Temporal Map analysis plugin (STMapAuto) that is fully compatible with Fiji/Image J. This plugin allows for automatic extraction of key Ca2+ event information such as: frequency, propagation velocity, intensity, area, and spatial spread. The developed analysis methods will dramatically reduce opportunities for user error and will provide a fast, standardized and accurate analysis to allow for high throughput analysis of multiple datasets.
+We developed a Spatio-Temporal Map analysis plugin (STMapAuto) that is fully compatible with Fiji/Image J. This plugin allows for automatic extraction of key Ca<sup>2+</sup> event information such as: frequency, propagation velocity, intensity, area, and spatial spread. The developed analysis methods will dramatically reduce opportunities for user error and will provide a fast, standardized and accurate analysis to allow for high throughput analysis of multiple datasets.
 
 ## **STMapAuto plugin manual:**
 
@@ -48,9 +48,9 @@ The Excel file will have 10 columns. The information in each column is as follow
 * Col. J: The angle of the bounding ellipse of the corresponding ROI.
 
 ## **Supplemental Information**
-Processes involved in automated analysis of Ca2+ spatio-temporal maps (STMaps) in Fiji/ImageJ.
+Processes involved in automated analysis of Ca<sup>2+</sup> spatio-temporal maps (STMaps) in Fiji/ImageJ.
 1. Upon opening of the .tif image/STMap to be analyzed, the plugin prompts ImageJ to open a Properties window, where the user will be able to calibrate the image. The calibration will allow for both spatial and temporal calibration.
-2. The plugin creates and initializes a RoiManager object. This object exists in the plugin and in ImageJ, and is where individual measurements of Ca2+ events take place.
+2. The plugin creates and initializes a RoiManager object. This object exists in the plugin and in ImageJ, and is where individual measurements of Ca<sup>2+</sup> events take place.
 3. The plugin creates and initializes an ImagePlus object to the currently open image. This is loaded directly into the plugin.
 4. The plugin creates and initializes a WekaSegmentation object with the previously created ImagePlus object. 
 5. Once the WekaSegmentation is initialized, the plugin creates and initializes an OpenDialog object, which prompts the user to pick a classifier of their choice. 
@@ -68,7 +68,7 @@ Processes involved in automated analysis of Ca2+ spatio-temporal maps (STMaps) i
 
 ## **Citation for STMapAuto plugin:**
 Please note that STMapAuto plugin is based on a publication. We kindly ask users that utilize the plugin to cite our work:
-* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (2020). A High Throughput Machine-Learning Driven Analysis of Ca2+ Spatio-temporal Maps (LINK)
+* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (2020). A High Throughput Machine-Learning Driven Analysis of Ca<sup>2+</sup> Spatio-temporal Maps (LINK)
 
 ## **License:**
 The code is released under the MIT License, you can read the license file included in the repository for details.
