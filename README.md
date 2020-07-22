@@ -68,7 +68,7 @@ Processes involved in automated analysis of Ca<sup>2+</sup> spatio-temporal maps
 
 ## **Citation for STMapAuto plugin:**
 Please note that STMapAuto plugin is based on a publication. We kindly ask users that utilize the plugin to cite our work:
-* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (2020). A High Throughput Machine-Learning Driven Analysis of Ca2+ Spatio-temporal Maps (LINK)
+* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (2020). A High Throughput Machine-Learning Driven Analysis of Ca<sup>2+</sup> Spatio-temporal Maps (LINK)
 
 ## **License:**
 The code is released under the MIT License, you can read the license file included in the repository for details.
