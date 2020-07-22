@@ -16,12 +16,12 @@
 	<artifactId>BioLabPlugin2</artifactId>
 	<version>1.1.0</version>
 
-	<name>BioLabPlugin</name>
-	<description>A Maven project implementing an ImageJ command.</description>
+	<name>STMapAuto</name>
+	<description>A plugin automating the segmentation process for spatio-temporal maps.</description>
 	<url>https://www.unr.edu/</url>
 	<inceptionYear>2019</inceptionYear>
 		<organization>
-		<name>Bio Lab</name>
+		<name>UNR School of Medicine</name>
 		<url>https://www.unr.edu/</url>
 	</organization>
 	<licenses>
