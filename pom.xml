@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>26.0.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>com.bio.lab</groupId>
+	<artifactId>BioLabPlugin2</artifactId>
+	<version>1.1.0</version>
+
+	<name>BioLabPlugin</name>
+	<description>A Maven project implementing an ImageJ command.</description>
+	<url>https://www.unr.edu/</url>
+	<inceptionYear>2019</inceptionYear>
+		<organization>
+		<name>Bio Lab</name>
+		<url>https://www.unr.edu/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>gdelvalle</id>
+			<name>Guillermo Del Valle</name>
+			<url>https://imagej.net/User:Rueden</url>
+			<roles>
+				<role>lead</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Guillermo Del Valle</name>
+		</contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>Image.sc Forum</name>
+			<archive>https://forum.image.sc/tags/imagej</archive>
+		</mailingList>
+	</mailingLists>
+
+	
+
+	<scm>
+		<connection>scm:git:git://github.com/imagej/example-imagej-command</connection>
+		<developerConnection>scm:git:git@github.com:imagej/example-imagej-command</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/imagej/example-imagej-command</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/imagej/example-imagej-command/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>None</system>
+	</ciManagement>
+
+	<properties>
+		<package-name>com.bio.lab</package-name>
+		<main-class>com.bio.lab.BioLab</main-class>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>scijava.public</id>
+			<url>https://maven.scijava.org/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej</artifactId>
+		</dependency>
+		<dependency>
+    		<groupId>net.imagej</groupId>
+    		<artifactId>ij</artifactId>
+		</dependency>
+		<dependency>
+    		<groupId>sc.fiji</groupId>
+   			<artifactId>Trainable_Segmentation</artifactId>
+		</dependency>
+			<dependency>
+   				 <groupId>io.getstream.client</groupId>
+    			<artifactId>stream-java</artifactId>
+   			 <version>1.2.2</version>
+   			 <type>pom</type>
+			</dependency>
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi</artifactId>
+</dependency>
+
+
+
+
+
+	
+	</dependencies>
+</project>
