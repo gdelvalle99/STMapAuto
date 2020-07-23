@@ -31,7 +31,7 @@ Now the software is ready to be used:
 
 7-All segmented images and excel file are located in the output folder 
 
--Example STMap and plugin output are provided using this link:  https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
+-Example of STMap and plugin output are provided using this link:  https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
 
 -For optimization of new classifiers and training of new set of STMaps, please refer to the machine learning section of the paper (Link) and/or
 contact Dr. Baker's Lab: https://med.unr.edu/directory/sal-baker?v=bio#Biography
