@@ -32,8 +32,8 @@ Now the software is ready to be used:
 7-All segmented images and excel file are located in the output folder 
 
 
-For optimization of new classifiers and training of new set of STMaps, please refer to 
-Dr. Baker Lab page: https://med.unr.edu/directory/sal-baker?v=bio#Biography
+For optimization of new classifiers and training of new set of STMaps, please refer to the machine learning section of the paper (Link) and/or
+contact Dr. Baker's Lab: https://med.unr.edu/directory/sal-baker?v=bio#Biography
 
 
 ## **Explanation of results:**
