@@ -13,7 +13,7 @@ First time use:
 
 -Create 2 folders on your computer (i.e. Input and output folders).
 
--Download classifiers to your PC  (LINK).
+-Download classifiers to your PC (https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
 
 Now the software is ready to be used: 
 
@@ -31,8 +31,9 @@ Now the software is ready to be used:
 
 7-All segmented images and excel file are located in the output folder 
 
+-Example STMap and plugin output are provided using this link:  https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
 
-For optimization of new classifiers and training of new set of STMaps, please refer to the machine learning section of the paper (Link) and/or
+-For optimization of new classifiers and training of new set of STMaps, please refer to the machine learning section of the paper (Link) and/or
 contact Dr. Baker's Lab: https://med.unr.edu/directory/sal-baker?v=bio#Biography
 
 
@@ -70,7 +71,7 @@ Processes involved in automated analysis of Ca<sup>2+</sup> spatio-temporal maps
 
 ## **Citation for STMapAuto plugin:**
 Please note that STMapAuto plugin is based on a publication. We kindly ask users that utilize the plugin to cite our work:
-* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (2020). A High Throughput Machine-Learning Driven Analysis of Ca<sup>2+</sup> Spatio-temporal Maps (LINK)
+* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Bernard T. Drumm, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (2020). A High Throughput Machine-Learning Driven Analysis of Ca<sup>2+</sup> Spatio-temporal Maps (LINK)
 
 ## **License:**
 The code is released under the MIT License, you can read the license file included in the repository for details.
