@@ -7,7 +7,9 @@ We developed a Spatio-Temporal Map analysis plugin (STMapAuto) that is fully com
 ## **STMapAuto plugin manual:**
 
 First time use:
--After downloading the plugin into Fiji/Image J https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
+** DOWNLOAD STMapAuto plugin ** and classfiiers using this link:  https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
+
+-After downloading the plugin and into Fiji/Image J
 
 -Create 2 folders on your computer (i.e. Input and output folders).
 
@@ -30,8 +32,8 @@ Now the software is ready to be used:
 7-All segmented images and excel file are located in the output folder 
 
 
-For optimization of new classifiers and training of new set of STMaps, please refer to 
-Dr. Baker Lab page: https://med.unr.edu/directory/sal-baker?v=bio#Biography
+For optimization of new classifiers and training of new set of STMaps, please refer to the machine learning section of the paper (Link) and/or
+contact Dr. Baker's Lab: https://med.unr.edu/directory/sal-baker?v=bio#Biography
 
 
 ## **Explanation of results:**
