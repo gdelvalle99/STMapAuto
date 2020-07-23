@@ -9,7 +9,7 @@ We developed a Spatio-Temporal Map analysis plugin (STMapAuto) that is fully com
 First time use:
 ** DOWNLOAD STMapAuto plugin ** and classifiers using this link:  https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
 
--After downloading the plugin and into Fiji/Image J
+-After downloading the plugin into Fiji/Image J
 
 -Create 2 folders on your computer (i.e. Input and output folders).
 
