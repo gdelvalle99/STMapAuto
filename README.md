@@ -3,6 +3,8 @@
 Intracellular Ca<sup>2+</sup> signals occur in nearly all cells, and mediate a myriad of functions such as cell proliferation, secretion, fertilization, and muscle contraction. To investigate these phenomena, Ca<sup>2+</sup> signals are commonly recorded by using either traditional Ca<sup>2+</sup> dyes or genetically encoded Ca<sup>2+</sup> indicators. However, intracellular Ca<sup>2+</sup> signals encode specific responses via complex spatial and temporal patterns including localized oscillations and cell-wide waves, which can be arduous to decipher manually. Therefore, we aim to dramatically enhance current methods of Ca<sup>2+</sup> event detection and analysis. Thus far, we have developed an automated algorithmic solution to the analysis of Ca<sup>2+</sup> signal dynamics and have incorporated a machine learning approach into Ca<sup>2+</sup> Spatio-Temporal Map analysis.
 
 Dr. Sal Baker Lab at the Univerity of Nevada Reno, developed a Spatio-Temporal Map analysis plugin (STMapAuto) that is fully compatible with Fiji/Image J. This plugin allows for automatic extraction of key Ca<sup>2+</sup> event information such as: frequency, propagation velocity, intensity, area, and spatial spread. The developed analysis methods will dramatically reduce opportunities for user error and will provide a fast, standardized and accurate analysis to allow for high throughput analysis of multiple datasets.
+Detailes of the plugin generation and testing can be found in our paper in Cell Calcium journal. STMapAuto plugin is based on a publication and  We kindly ask users that utilize the plugin to cite our work
+https://authors.elsevier.com/sd/article/S0143-4160(20)30102-0
 
 ## **STMapAuto plugin manual:**
 
@@ -71,7 +73,7 @@ Processes involved in automated analysis of Ca<sup>2+</sup> spatio-temporal maps
 
 ## **Citation for STMapAuto plugin:**
 Please note that STMapAuto plugin is based on a publication. We kindly ask users that utilize the plugin to cite our work:
-* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Bernard T. Drumm, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (2020). A High Throughput Machine-Learning Driven Analysis of Ca<sup>2+</sup> Spatio-temporal Maps (LINK)
+* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Bernard T. Drumm, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (Cell Calcium; July 2020). A High Throughput Machine-Learning Driven Analysis of Ca<sup>2+</sup> Spatio-temporal Maps https://authors.elsevier.com/sd/article/S0143-4160(20)30102-0 
 
 ## **License:**
 The code is released under the MIT License, you can read the license file included in the repository for details.
