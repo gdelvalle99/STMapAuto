@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>com.bio.lab</groupId>
-	<artifactId>BioLabPlugin2</artifactId>
+	<artifactId>STMapAuto</artifactId>
 	<version>1.1.0</version>
 
 	<name>STMapAuto</name>
