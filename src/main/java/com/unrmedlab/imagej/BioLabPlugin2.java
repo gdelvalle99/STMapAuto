@@ -85,6 +85,7 @@ public class BioLabPlugin2 implements Command {
         processFilesForFolder(folder, output_dir, path);
     	}
     	else {
+    		String answer = rDialog();
     		genDialog("Choose an image");
     		OpenDialog dialog = new OpenDialog("Choose an image", null);
     		genDialog("Choose output folder");
@@ -98,15 +99,33 @@ public class BioLabPlugin2 implements Command {
         	if(path == null) {
         		return;
         	}
-        	trainClassifier(path);
+        	if(answer == "No") {
+        		trainClassifier(path);
         	//Weka_Segmentation segment = new Weka_Segmentation();
-        	nonDialog("Click okay when done");
-        	Weka_Segmentation.getResult();
-        	ImagePlus imp1 = IJ.getImage();
-        	imp = IJ.openImage(path);
-        	processSingleImage(imp1, output_dir);
+        		nonDialog("Click okay when done");
+        		Weka_Segmentation.getResult();
+        		ImagePlus imp1 = IJ.getImage();
+        		imp = IJ.openImage(path);
+        		processSingleImage(imp1, output_dir);
+        	}
+        	else {
+        		ImagePlus imp1 = IJ.openImage(path);
+        		imp1.show();
+        		imp = IJ.openImage(path);
+        		processSingleImage(imp1, output_dir);
+        	}
     	}
         
+    }
+    
+    public String rDialog() {
+    	GenericDialog gd = new GenericDialog("Initial");
+    	gd.addRadioButtonGroup("Do you have an already segmented image?", new String[] {"Yes", "No"}, 1, 2, "No");
+    	gd.showDialog();
+    	if(gd.wasCanceled()) {
+    		return "No";
+    	}
+    	return (String)gd.getNextRadioButton();
     }
     
     public String choiceDialog(String choice) {
