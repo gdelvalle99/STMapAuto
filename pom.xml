@@ -9,18 +9,18 @@
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
 		<version>26.0.0</version>
-		<relativePath />
+		<relativePath/>
 	</parent>
 
 	<groupId>com.bio.lab</groupId>
 	<artifactId>STMapAuto</artifactId>
-	<version>1.1.0</version>
+	<version>1.2.0</version>
 
 	<name>STMapAuto</name>
 	<description>A plugin automating the segmentation process for spatio-temporal maps.</description>
 	<url>https://www.unr.edu/</url>
 	<inceptionYear>2019</inceptionYear>
-		<organization>
+	<organization>
 		<name>UNR School of Medicine</name>
 		<url>https://www.unr.edu/</url>
 	</organization>
@@ -59,7 +59,6 @@
 		</mailingList>
 	</mailingLists>
 
-	
 
 	<scm>
 		<connection>scm:git:git://github.com/imagej/example-imagej-command</connection>
@@ -95,28 +94,22 @@
 			<artifactId>imagej</artifactId>
 		</dependency>
 		<dependency>
-    		<groupId>net.imagej</groupId>
-    		<artifactId>ij</artifactId>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
 		</dependency>
 		<dependency>
-    		<groupId>sc.fiji</groupId>
-   			<artifactId>Trainable_Segmentation</artifactId>
+			<groupId>sc.fiji</groupId>
+			<artifactId>Trainable_Segmentation</artifactId>
 		</dependency>
-			<dependency>
-   				 <groupId>io.getstream.client</groupId>
-    			<artifactId>stream-java</artifactId>
-   			 <version>1.2.2</version>
-   			 <type>pom</type>
-			</dependency>
-<dependency>
-	<groupId>org.apache.poi</groupId>
-	<artifactId>poi</artifactId>
-</dependency>
-
-
-
-
-
-	
+		<dependency>
+			<groupId>io.getstream.client</groupId>
+			<artifactId>stream-java</artifactId>
+			<version>1.2.2</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+		</dependency>
 	</dependencies>
 </project>
