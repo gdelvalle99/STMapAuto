@@ -1,3 +1,11 @@
+## **Release 1.2.0**
+- Implemented Weka Segmentation
+- 2 new modes of operation: batch and single STMap processing.  Single map mode allows the user to generate classifiers directly. 
+- Renamed Width to W-Spatial in Results.xls
+- Renamed Height to H-Duration in Results.xls
+- Changed the default pixel height and width to 0.0303
+- Bug fix: fixed output path name on PC
+
 ## **Calcium Imaging Analysis Plugin Fiji/Image J:**
 
 Intracellular Ca<sup>2+</sup> signals occur in nearly all cells, and mediate a myriad of functions such as cell proliferation, secretion, fertilization, and muscle contraction. To investigate these phenomena, Ca<sup>2+</sup> signals are commonly recorded by using either traditional Ca<sup>2+</sup> dyes or genetically encoded Ca<sup>2+</sup> indicators. However, intracellular Ca<sup>2+</sup> signals encode specific responses via complex spatial and temporal patterns including localized oscillations and cell-wide waves, which can be arduous to decipher manually. Therefore, we aim to dramatically enhance current methods of Ca<sup>2+</sup> event detection and analysis. Thus far, we have developed an automated algorithmic solution to the analysis of Ca<sup>2+</sup> signal dynamics and have incorporated a machine learning approach into Ca<sup>2+</sup> Spatio-Temporal Map analysis.
