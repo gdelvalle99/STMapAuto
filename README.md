@@ -12,18 +12,17 @@ Intracellular Ca<sup>2+</sup> signals occur in nearly all cells, and mediate a m
 
 Dr. Sal Baker Lab at the Univerity of Nevada Reno, developed a Spatio-Temporal Map analysis plugin (STMapAuto) that is fully compatible with Fiji/Image J. This plugin allows for automatic extraction of key Ca<sup>2+</sup> event information such as: frequency, propagation velocity, intensity, area, and spatial spread. The developed analysis methods will dramatically reduce opportunities for user error and will provide a fast, standardized and accurate analysis to allow for high throughput analysis of multiple datasets.
 Detailes of the plugin generation and testing can be found in our paper in Cell Calcium journal. STMapAuto plugin is based on a publication and  We kindly ask users that utilize the plugin to cite our work
-https://authors.elsevier.com/sd/article/S0143-4160(20)30102-0
+https://www.sciencedirect.com/science/article/pii/S0143416020301020
 
 ## **STMapAuto plugin manual:**
 
 First time use:
-** DOWNLOAD STMapAuto plugin ** and classifiers using this link:  https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
+** DOWNLOAD STMapAuto plugin ** classifiers and example STMap using this link: (on this page-click on Code-select dowanload zip file)
 
 -After downloading the plugin into Fiji/Image J
 
 -Create 2 folders on your computer (i.e. Input and output folders).
 
--Download classifiers to your PC (https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
 
 Now the software is ready to be used: 
 
@@ -41,11 +40,10 @@ Now the software is ready to be used:
 
 7-All segmented images and excel file are located in the output folder 
 
--Example of STMap and plugin output are provided using this link:  https://drive.google.com/drive/folders/1ut73XbMOyv6L0WhXRT-2eq7AsvYdlwdM?usp=sharing.
 
--For optimization of new classifiers and training of new set of STMaps, please refer to the machine learning section of the paper (Link) and/or
+-For optimization of new classifiers and training of new set of STMaps, please refer to the machine learning section of the paper (https://www.sciencedirect.com/science/article/pii/S0143416020301020) and/or
 contact Dr. Baker's Lab: https://med.unr.edu/directory/sal-baker?v=bio#Biography
-
+-Please note: for single STMap training and analysis. open the STMap FIRST in image J before using the STMAPAUTO plugin.
 
 ## **Explanation of results:**
 The Excel file will have 10 columns. The information in each column is as follows.
@@ -81,7 +79,7 @@ Processes involved in automated analysis of Ca<sup>2+</sup> spatio-temporal maps
 
 ## **Citation for STMapAuto plugin:**
 Please note that STMapAuto plugin is based on a publication. We kindly ask users that utilize the plugin to cite our work:
-* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Bernard T. Drumm, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (Cell Calcium; July 2020). A High Throughput Machine-Learning Driven Analysis of Ca<sup>2+</sup> Spatio-temporal Maps https://authors.elsevier.com/sd/article/S0143-4160(20)30102-0 
+* Wesley Leigh, Guillermo Del Valle, Sharif Amit Kamran, Bernard T. Drumm, Alireza Tavakkoli, Kenton M. Sanders, Salah A. Baker (Cell Calcium; July 2020). A High Throughput Machine-Learning Driven Analysis of Ca<sup>2+</sup> Spatio-temporal Maps https://authors.elsevier.com/sd/article/S0143-4160(20)30102-0 or https://www.sciencedirect.com/science/article/pii/S0143416020301020
 
 ## **License:**
 The code is released under the MIT License, you can read the license file included in the repository for details.
