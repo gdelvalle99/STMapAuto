@@ -43,6 +43,7 @@ Now the software is ready to be used:
 
 -For optimization of new classifiers and training of new set of STMaps, please refer to the machine learning section of the paper (https://www.sciencedirect.com/science/article/pii/S0143416020301020) and/or
 contact Dr. Baker's Lab: https://med.unr.edu/directory/sal-baker?v=bio#Biography
+
 -Please note: for single STMap training and analysis. open the STMap FIRST in image J before using the STMAPAUTO plugin.
 
 ## **Explanation of results:**
